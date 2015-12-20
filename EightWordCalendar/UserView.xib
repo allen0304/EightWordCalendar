@@ -72,8 +72,8 @@
                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="3CY-CG-NEc">
-                                    <rect key="frame" x="0.0" y="168" width="150" height="30"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="3CY-CG-NEc">
+                                    <rect key="frame" x="75" y="168" width="0.0" height="30"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="30" id="uv0-9V-IJW"/>
                                     </constraints>
@@ -81,8 +81,8 @@
                                         <rect key="frame" x="45" y="306" width="50" height="50"/>
                                     </variation>
                                 </stackView>
-                                <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="gMr-E6-hdC">
-                                    <rect key="frame" x="0.0" y="200" width="150" height="50"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="gMr-E6-hdC">
+                                    <rect key="frame" x="75" y="200" width="0.0" height="50"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="50" id="9Zg-YG-fxT"/>
                                     </constraints>
@@ -139,8 +139,8 @@
                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="I4O-yw-IMn">
-                                    <rect key="frame" x="0.0" y="168" width="150" height="30"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="I4O-yw-IMn">
+                                    <rect key="frame" x="75" y="168" width="0.0" height="30"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="30" id="flK-aQ-cUS"/>
                                     </constraints>
@@ -148,8 +148,8 @@
                                         <rect key="frame" x="45" y="306" width="50" height="50"/>
                                     </variation>
                                 </stackView>
-                                <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="GoV-Rw-Y7v">
-                                    <rect key="frame" x="0.0" y="200" width="150" height="50"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="GoV-Rw-Y7v">
+                                    <rect key="frame" x="75" y="200" width="0.0" height="50"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="50" id="2UE-OZ-EW4"/>
                                     </constraints>
@@ -206,8 +206,8 @@
                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="uJ2-XO-E4D">
-                                    <rect key="frame" x="0.0" y="168" width="150" height="30"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="uJ2-XO-E4D">
+                                    <rect key="frame" x="75" y="168" width="0.0" height="30"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="30" id="3w3-lW-102"/>
                                     </constraints>
@@ -215,8 +215,8 @@
                                         <rect key="frame" x="45" y="306" width="50" height="50"/>
                                     </variation>
                                 </stackView>
-                                <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="2qe-4F-Sly">
-                                    <rect key="frame" x="0.0" y="200" width="150" height="50"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="2qe-4F-Sly">
+                                    <rect key="frame" x="75" y="200" width="0.0" height="50"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="50" id="4i2-dY-su7"/>
                                     </constraints>
@@ -285,8 +285,8 @@
                                         <rect key="frame" x="46" y="193" width="48" height="113"/>
                                     </variation>
                                 </label>
-                                <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="p4K-ds-lSn">
-                                    <rect key="frame" x="0.0" y="168" width="150" height="30"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="p4K-ds-lSn">
+                                    <rect key="frame" x="75" y="168" width="0.0" height="30"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="30" id="1yM-ke-BUJ"/>
                                     </constraints>
@@ -294,8 +294,8 @@
                                         <rect key="frame" x="45" y="306" width="50" height="50"/>
                                     </variation>
                                 </stackView>
-                                <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="pKu-Qd-fqO">
-                                    <rect key="frame" x="0.0" y="200" width="150" height="50"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="pKu-Qd-fqO">
+                                    <rect key="frame" x="75" y="200" width="0.0" height="50"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="50" id="6V6-Fe-7dQ"/>
                                     </constraints>

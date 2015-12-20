@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RcA-bf-SOc" customClass="UserView" customModule="EightWordCalendar" customModuleProvider="target">
-                                <rect key="frame" x="20" y="150" width="560" height="300"/>
+                                <rect key="frame" x="20" y="142" width="560" height="300"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="beS-fJ-zPv"/>
@@ -31,8 +31,20 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="農曆" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6uo-ZU-Kgc">
-                                <rect key="frame" x="283" y="57" width="389" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="農曆" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6uo-ZU-Kgc">
+                                <rect key="frame" x="283" y="57" width="34" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="節氣2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Lq-Sr-1UF">
+                                <rect key="frame" x="278" y="113.5" width="44" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="節氣1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VR3-uf-KMV">
+                                <rect key="frame" x="279" y="85" width="42" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -42,17 +54,23 @@
                         <constraints>
                             <constraint firstItem="RcA-bf-SOc" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="3HT-fo-zcT"/>
                             <constraint firstItem="6uo-ZU-Kgc" firstAttribute="top" secondItem="Ckm-hh-PFT" secondAttribute="bottom" constant="8.5" id="5ch-zc-fAA"/>
+                            <constraint firstItem="3Lq-Sr-1UF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Grf-YC-RId"/>
                             <constraint firstItem="Ckm-hh-PFT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jwy-ba-sqR"/>
+                            <constraint firstItem="3Lq-Sr-1UF" firstAttribute="top" secondItem="VR3-uf-KMV" secondAttribute="bottom" constant="8" id="UQf-bn-cWR"/>
+                            <constraint firstItem="VR3-uf-KMV" firstAttribute="top" secondItem="6uo-ZU-Kgc" secondAttribute="bottom" constant="7.5" id="UpN-cL-7d2"/>
                             <constraint firstItem="RcA-bf-SOc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dZn-Mw-1Bj"/>
+                            <constraint firstItem="VR3-uf-KMV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dma-hl-5rA"/>
                             <constraint firstItem="Ckm-hh-PFT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="jCL-ty-g7a"/>
                             <constraint firstItem="6uo-ZU-Kgc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mCu-Wj-OOg"/>
+                            <constraint firstItem="RcA-bf-SOc" firstAttribute="top" secondItem="3Lq-Sr-1UF" secondAttribute="bottom" constant="8" id="rSd-Ic-aKa"/>
                             <constraint firstItem="RcA-bf-SOc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="tM8-cv-TID"/>
-                            <constraint firstItem="RcA-bf-SOc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xdy-wq-Jo8"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="date1" destination="Ckm-hh-PFT" id="aes-nT-pKR"/>
                         <outlet property="date2" destination="6uo-ZU-Kgc" id="sBP-f3-Iff"/>
+                        <outlet property="label節氣1" destination="VR3-uf-KMV" id="rXX-4s-4Ey"/>
+                        <outlet property="label節氣2" destination="3Lq-Sr-1UF" id="bQW-Nm-9Z2"/>
                         <outlet property="userView" destination="RcA-bf-SOc" id="EZi-bQ-g6A"/>
                     </connections>
                 </viewController>
