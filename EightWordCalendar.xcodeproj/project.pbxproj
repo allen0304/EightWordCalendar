@@ -12,6 +12,9 @@
 		9FFAC1231C26D3DC00A991EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFAC1211C26D3DC00A991EF /* Main.storyboard */; };
 		9FFAC1251C26D3DC00A991EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FFAC1241C26D3DC00A991EF /* Assets.xcassets */; };
 		9FFAC1281C26D3DC00A991EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFAC1261C26D3DC00A991EF /* LaunchScreen.storyboard */; };
+		9FFAC1301C26D46A00A991EF /* EWCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFAC12F1C26D46A00A991EF /* EWCalendar.swift */; };
+		9FFAC1371C26DAC500A991EF /* UserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FFAC1351C26DAC500A991EF /* UserView.xib */; };
+		9FFAC1381C26DAC500A991EF /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFAC1361C26DAC500A991EF /* UserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		9FFAC1241C26D3DC00A991EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FFAC1271C26D3DC00A991EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FFAC1291C26D3DC00A991EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FFAC12F1C26D46A00A991EF /* EWCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = EWCalendar.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9FFAC1351C26DAC500A991EF /* UserView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserView.xib; sourceTree = "<group>"; };
+		9FFAC1361C26DAC500A991EF /* UserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		9FFAC11C1C26D3DC00A991EF /* EightWordCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				9FFAC1351C26DAC500A991EF /* UserView.xib */,
+				9FFAC1361C26DAC500A991EF /* UserView.swift */,
+				9FFAC12F1C26D46A00A991EF /* EWCalendar.swift */,
 				9FFAC11D1C26D3DC00A991EF /* AppDelegate.swift */,
 				9FFAC11F1C26D3DC00A991EF /* ViewController.swift */,
 				9FFAC1211C26D3DC00A991EF /* Main.storyboard */,
@@ -96,7 +105,6 @@
 				TargetAttributes = {
 					9FFAC1191C26D3DC00A991EF = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 2YZC64UDYW;
 					};
 				};
 			};
@@ -126,6 +134,7 @@
 				9FFAC1281C26D3DC00A991EF /* LaunchScreen.storyboard in Resources */,
 				9FFAC1251C26D3DC00A991EF /* Assets.xcassets in Resources */,
 				9FFAC1231C26D3DC00A991EF /* Main.storyboard in Resources */,
+				9FFAC1371C26DAC500A991EF /* UserView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FFAC1301C26D46A00A991EF /* EWCalendar.swift in Sources */,
 				9FFAC1201C26D3DC00A991EF /* ViewController.swift in Sources */,
 				9FFAC11E1C26D3DC00A991EF /* AppDelegate.swift in Sources */,
+				9FFAC1381C26DAC500A991EF /* UserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +261,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = EightWordCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.emod.EightWordCalendar;
@@ -261,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = EightWordCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.emod.EightWordCalendar;
